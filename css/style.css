@@ -93,4 +93,25 @@ body{
   }
   
 
- 
+ .my-container {
+    display: flex;
+ }
+
+ .tech-skills-conteiner ul li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+
+ }
+ .tech-skills-conteiner ul li::before {
+     content: "";
+     display: block;
+     flex: 0 0 6px;
+     height: 6px;
+     width: 6px;
+     max-width: 6px;
+     border-radius: 999px;
+     background-color: red;
+     margin-right: 5px;
+      
+ }
